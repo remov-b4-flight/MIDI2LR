@@ -19,7 +19,7 @@ You should have received a copy of the GNU General Public License along with
 MIDI2LR.  If not, see <http://www.gnu.org/licenses/>.
 ------------------------------------------------------------------------------]]
 --[[ Modified by @remov-b4-flight 2023 
-Add command 'MaskNewBackGnd','MaskNewPeople' 
+Add commands 'MaskNewBackGnd','MaskNewPeople' 
 --]]
 
 --[[-----------debug section, enable by adding - to beginning this line

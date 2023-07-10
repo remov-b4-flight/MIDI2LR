@@ -950,6 +950,8 @@ local DataBase = {
   {Command='MaskNewDepth',Type='button',Translation=LOC('$$$/AgDevelop/Localized/MaskGroup/NewMask=New ^1',LOC'$$$/AgDevelop/Localized/MaskGroup/DepthRange=depth range'),Group=mask,Explanation=''},
   {Command='MaskNewSubject',Type='button',Translation=LOC('$$$/AgDevelop/Localized/MaskGroup/NewMask=New ^1',LOC'$$$/AgDevelop/Localized/MaskGroup/SelectSubject/Short=subject'),Group=mask,Explanation=''},
   {Command='MaskNewSky',Type='button',Translation=LOC('$$$/AgDevelop/Localized/MaskGroup/NewMask=New ^1',LOC'$$$/AgDevelop/Localized/MaskGroup/SelectSky/Short=sky'),Group=mask,Explanation=''},
+  {Command='MaskNewBackGnd',Type='button',Translation=LOC('$$$/AgDevelop/Localized/MaskGroup/NewMask=New ^1',LOC'$$$/AgDevelop/Localized/MaskGroup/SelectBackground/Short=background'),Group=mask,Explanation=''},
+  {Command='MaskNewPeople',Type='button',Translation=LOC('$$$/AgDevelop/Localized/MaskGroup/NewMask=New ^1',LOC'$$$/AgDevelop/Localized/MaskGroup/SelectPeople/Short=people'),Group=mask,Explanation=''},
   {Command='MaskAddBrush',Type='button',Translation=LOC('$$$/AgDevelop/Localized/Masking/AddToMask=Add ^1 to the mask',LOC'$$$/AgDevelop/Localized/MaskGroup/Brush=brush'),Group=mask,Explanation=''},
   {Command='MaskAddGrad',Type='button',Translation=LOC('$$$/AgDevelop/Localized/Masking/AddToMask=Add ^1 to the mask',LOC'$$$/AgDevelop/Localized/MaskGroup/Gradient=gradient'),Group=mask,Explanation=''},
   {Command='MaskAddRad',Type='button',Translation=LOC('$$$/AgDevelop/Localized/Masking/AddToMask=Add ^1 to the mask',LOC'$$$/AgDevelop/Localized/MaskGroup/CircularGradient=radial gradient'),Group=mask,Explanation=''},

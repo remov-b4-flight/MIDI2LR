@@ -18,6 +18,10 @@ PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 You should have received a copy of the GNU General Public License along with
 MIDI2LR.  If not, see <http://www.gnu.org/licenses/>.
 ------------------------------------------------------------------------------]]
+--[[ Modified by @remov-b4-flight 2023 
+Add command 'MaskNewBackGnd','MaskNewPeople' 
+--]]
+
 --[[-----------debug section, enable by adding - to beginning this line
 local LrMobdebug = import 'LrMobdebug'
 LrMobdebug.start()
@@ -440,6 +444,8 @@ LrTasks.startAsyncTask(
       MaskNewRad     = CU.wrapFOM(LrDevelopController.createNewMask,'radialGradient'),
       MaskNewSky     = CU.wrapFOM(LrDevelopController.createNewMask,'aiSelection','sky'),
       MaskNewSubject = CU.wrapFOM(LrDevelopController.createNewMask,'aiSelection','subject'),
+      MaskNewBackGnd = CU.wrapFOM(LrDevelopController.createNewMask,'aiSelection','background'),
+      MaskNewPeople  = CU.wrapFOM(LrDevelopController.createNewMask,'aiSelection','people'),
       MaskNext       = Mask.NextMask,
       MaskNextTool   = Mask.NextTool,
       MaskPrevious   = Mask.PreviousMask,

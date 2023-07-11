@@ -1,4 +1,4 @@
-This repositoty is fork of [MIDI2LR](https://github.com/rsjaffe/MIDI2LR/) of rsjaffe
+This repositry is fork of [MIDI2LR](https://github.com/rsjaffe/MIDI2LR/) of rsjaffe
 # MIDI2LR
 
 [![Latest release](https://img.shields.io/github/release/rsjaffe/MIDI2LR.svg)](https://github.com/rsjaffe/MIDI2LR/releases/latest) [![MIDI2LR All Releases](https://img.shields.io/github/downloads/rsjaffe/MIDI2LR/total.svg)](https://github.com/rsjaffe/MIDI2LR/releases) [![license](https://img.shields.io/github/license/rsjaffe/MIDI2LR.svg)](https://github.com/rsjaffe/MIDI2LR/blob/master/LICENSE.txt)

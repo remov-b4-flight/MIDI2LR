@@ -1,0 +1,3 @@
+[submodule "src/MIDI2LR.lrplugin"]
+	path = src/MIDI2LR.lrplugin
+	url = https://github.com/remov-b4-flight/MIDI2LR.lrplugin.git
